@@ -1,6 +1,6 @@
 export const sortBy = ['RECOMMENDED', 'NEWEST FIRST', 'POPULAR', 'PRICE : HIGH TO LOW', 'PRICE : LOW TO HIGH']; 
 
-export let filters = [
+export const filters = [
     {
         name: 'Ideal for',
         values: [

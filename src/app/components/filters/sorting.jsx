@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from "react";
-import { sortBy } from "../constant";
+import { sortBy } from "../../constant";
 
 const Modal = ({ isOpen, children }) => {
     return (
@@ -60,7 +60,7 @@ export default function Sorting() {
                                     <div key={sortOption} className="mt-2 text-sm text-right grow cursor-pointer" onClick={() => handleSortClick(sortOption)}>{sortOption}</div>
                                 </div>
                             )
-                        }) 
+                        })
                     }
                 </div>
             </Modal>
