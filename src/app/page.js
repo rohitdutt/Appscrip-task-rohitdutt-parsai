@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from "react";
-import ProductList from "./components/products/productList";
+import ProductList from "./components/products/ProductList";
 import Header from "./components/common/header";
 import Footer from "./components/common/footer";
-import SidebarFilters from "./components/filters/sidebarFilters";
-import Sorting from "./components/filters/sorting";
+import SidebarFilters from "./components/filters/SidebarFilters";
+import Sorting from "./components/filters/Sorting";
 import { filters } from "./constant";
 
 export default function Home() {
